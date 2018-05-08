@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CryptoZombies front-end</title>
+    <script language="javascript" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Include web3.js here -->
+    <script language="javascript" type="text/javascript" src="lib/web3.min.js"></script>
+    <!-- Include ABI here -->
+    <script language="javascript" type="text/javascript" src="deploy/sample/cryptozombies_abi.js"></script>
+
+</head>
+<body>
+    <!-- Setting a Web3 Provider in Web3.js tells our code which node we should be talking to handle our reads and writes. It's kind of like setting the URL of the remote web server for your API calls in a traditional web app. -->
+    <!-- Infura or Metamask are providers -->
+    <div id="txStatus"></div>
+    <div id="zombies"></div>
+    <script language="javascript" type="text/javascript" src="web3-front-end"></script>
+</body>
+</html>
